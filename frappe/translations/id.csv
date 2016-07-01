@@ -23,13 +23,13 @@ DocType: Report,Report Manager,Manajer Laporan
 DocType: Workflow,Document States,Dokumen Negara
 apps/frappe/frappe/public/js/frappe/views/pageview.js +102,Sorry! I could not find what you were looking for.,Mohon Maaf! Saya tidak bisa menemukan apa yang Anda cari.
 apps/frappe/frappe/config/core.py +42,Logs,Log
-DocType: DocPerm,This role update User Permissions for a user,Peran ini Permissions pembaruan Pengguna untuk pengguna
+DocType: DocPerm,This role update User Permissions for a user,Peran ini memperbaharui izin pengguna bagi Pengguna
 apps/frappe/frappe/public/js/frappe/model/model.js +511,Rename {0},Ubah nama {0}
 DocType: Workflow State,zoom-out,perkecil
-apps/frappe/frappe/public/js/legacy/form.js +66,Cannot open {0} when its instance is open,Tidak dapat membuka {0} ketika misalnya yang terbuka
+apps/frappe/frappe/public/js/legacy/form.js +66,Cannot open {0} when its instance is open,Tidak dapat membuka {0} ketika aslinya terbuka juga
 apps/frappe/frappe/model/document.py +793,Table {0} cannot be empty,Tabel {0} tidak boleh kosong
 apps/frappe/frappe/public/js/frappe/views/reports/grid_report.js +893,With Ledgers,Dengan Buku Pembantu
-DocType: Communication,Reference Owner,referensi Pemilik
+DocType: Communication,Reference Owner,Referensi Pemilik
 DocType: Currency,Smallest circulating fraction unit (coin). For e.g. 1 cent for USD and it should be entered as 0.01,"Terkecil Unit beredar fraksi (koin). Untuk misalnya 1 sen untuk USD dan harus dimasukkan sebagai 0,01"
 DocType: Social Login Keys,GitHub,GitHub
 apps/frappe/frappe/model/base_document.py +489,"{0}, Row {1}","{0}, {1} Row"
