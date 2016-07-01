@@ -2017,16 +2017,16 @@ DocType: Custom Field,In Report Filter,Dalam Laporan Filter
 DocType: Email Account,Email Server,Email Server
 DocType: DocShare,Document Type,Jenis Dokumen
 apps/frappe/frappe/custom/doctype/custom_field/custom_field.py +18,Label is mandatory,Label adalah wajib
-DocType: Communication,Communication Type,komunikasi Jenis
+DocType: Communication,Communication Type,Jenis Komunikasi
 DocType: DocField,Unique,Unik
 DocType: Email Account,Service,Layanan
-DocType: File,File Name,berkas nama
+DocType: File,File Name,Nama Berkas
 apps/frappe/frappe/core/page/data_import_tool/importer.py +295,Did not find {0} for {0} ({1}),Tidak menemukan {0} untuk {0} ({1})
-apps/frappe/frappe/utils/bot.py +153,"Oops, you are not allowed to know that","Ups, Anda tidak diizinkan untuk mengetahui bahwa"
+apps/frappe/frappe/utils/bot.py +153,"Oops, you are not allowed to know that","Ups, Anda tidak seharusnya mengetahui hali itu"
 apps/frappe/frappe/desk/page/setup_wizard/setup_wizard_page.html +17,Next,Berikutnya
-apps/frappe/frappe/config/setup.py +39,Set Permissions per User,Permissions Set per Pengguna
+apps/frappe/frappe/config/setup.py +39,Set Permissions per User,Set Izin per Pengguna
 DocType: Print Format,Edit Format,Mengedit Format
-apps/frappe/frappe/templates/emails/new_user.html +6,Complete Registration,Pendaftaran Lengkap
+apps/frappe/frappe/templates/emails/new_user.html +6,Complete Registration,Lengkapi Pendaftaran 
 apps/frappe/frappe/public/js/frappe/form/toolbar.js +160,New {0} (Ctrl+B),New {0} (Ctrl + B)
 apps/frappe/frappe/website/doctype/website_theme/website_theme.py +40,Top Bar Color and Text Color are the same. They should be have good contrast to be readable.,Top Bar Warna dan Warna Teks adalah sama. Mereka harus memiliki kontras yang baik untuk dibaca.
 apps/frappe/frappe/core/page/data_import_tool/exporter.py +67,You can only upload upto 5000 records in one go. (may be less in some cases),Anda hanya dapat mengunggah hingga 5000 catatan dalam sekaligus. (Mungkin kurang dalam beberapa kasus)
@@ -2034,36 +2034,34 @@ apps/frappe/frappe/public/js/frappe/views/reports/reportview.js +559,Report was 
 DocType: Print Settings,Print Style,Print Style
 DocType: DocPerm,Import,Impor
 apps/frappe/frappe/custom/doctype/customize_form/customize_form.py +132,Row {0}: Not allowed to enable Allow on Submit for standard fields,Baris {0}: Tidak diizinkan untuk mengaktifkan Memungkinkan Submit untuk bidang standar
-apps/frappe/frappe/config/setup.py +95,Import / Export Data,Impor / Export Data
-apps/frappe/frappe/core/doctype/role/role.py +12,Standard roles cannot be renamed,Peran standar tidak dapat diganti
+apps/frappe/frappe/config/setup.py +95,Import / Export Data,Impor / Expor Data
+apps/frappe/frappe/core/doctype/role/role.py +12,Standard roles cannot be renamed,Peran standar tidak dapat dirubah
 apps/frappe/frappe/public/js/frappe/change_log.html +7,updated to {0},diperbarui untuk {0}
-DocType: User,Desktop Background,Latar belakang desktop
+DocType: User,Desktop Background,Latar Belakang Desktop
 DocType: Workflow State,chevron-right,chevron-kanan
-apps/frappe/frappe/custom/doctype/customize_form/customize_form.js +179,"Change type of field. (Currently, Type change is \
-						allowed among 'Currency and Float')","Ubah jenis lapangan. (Saat ini, Type perubahan \
- diperbolehkan antara 'Mata dan mengambang')"
-apps/frappe/frappe/website/doctype/web_form/web_form.py +28,You need to be in developer mode to edit a Standard Web Form,Anda perlu berada dalam mode pengembang untuk mengedit Web Form Standar
+apps/frappe/frappe/custom/doctype/customize_form/customize_form.js +179,"Change type of field. (Currently, Type change is \ allowed among 'Currency and Float')","Ubah jenis lapangan. (Pada Saat ini, Perubahan jenis diperbolehkan antara 'Mata Uang dan Mengapung')"
+apps/frappe/frappe/website/doctype/web_form/web_form.py +28,You need to be in developer mode to edit a Standard Web Form,Anda perlu berada dalam mode pengembang untuk mengedit Formulir Standar Web
 apps/frappe/frappe/public/js/frappe/views/reports/query_report.js +49,"For comparative filters, start with","Untuk filter komparatif, mulailah dengan"
-DocType: Website Theme,Link to Bootstrap CSS,Link ke Bootstrap CSS
+DocType: Website Theme,Link to Bootstrap CSS,Tautan ke CSS Bootstrap
 DocType: Workflow State,camera,kamera
-DocType: Website Settings,Brand HTML,Merek HTML
+DocType: Website Settings,Brand HTML,HTML Merek
 DocType: Desktop Icon,_doctype,_doctype
-apps/frappe/frappe/templates/includes/login/login.js +19,Both login and password required,Baik login maupun password keduanya diperlukan
+apps/frappe/frappe/templates/includes/login/login.js +19,Both login and password required,Kedua login dan password diperlukan
 apps/frappe/frappe/model/document.py +467,Please refresh to get the latest document.,Silahkan refresh untuk mendapatkan dokumen terbaru.
 DocType: User,Security Settings,Pengaturan Keamanan
 apps/frappe/frappe/public/js/frappe/views/reports/reportview.js +631,Add Column,Tambahkan Kolom
 ,Desktop,Desktop
 DocType: Web Form,Text to be displayed for Link to Web Page if this form has a web page. Link route will be automatically generated based on `page_name` and `parent_website_route`,Teks yang akan ditampilkan untuk Link ke Halaman Web jika formulir ini memiliki halaman web. Link rute akan secara otomatis dihasilkan berdasarkan `page_name` dan` parent_website_route`
-apps/frappe/frappe/public/js/frappe/form/control.js +1335,Please set {0} first,Silakan set {0} pertama
+apps/frappe/frappe/public/js/frappe/form/control.js +1335,Please set {0} first,Silakan set {0} dahulu
 DocType: Dropbox Backup,Send Backups to Dropbox,Kirim Backup ke Dropbox
 DocType: Patch Log,Patch,Tambalan
 DocType: Async Task,Failed,Gagal
-apps/frappe/frappe/core/page/data_import_tool/importer.py +45,No data found,Tidak ada data
-DocType: Web Form,Allow Comments,Izinkan Komentar
-DocType: User,Background Style,Gaya Latar
+apps/frappe/frappe/core/page/data_import_tool/importer.py +45,No data found,Data tidak ditemukan
+DocType: Web Form,Allow Comments,Komentar diperbolehkan
+DocType: User,Background Style,Gaya Latar Belakang
 DocType: System Settings,mm-dd-yyyy,mm-dd-yyyy
 apps/frappe/frappe/core/doctype/communication/feed.py +57,{0} logged in,{0} Telah login
-apps/frappe/frappe/templates/emails/new_user.html +4,Your login id is,Id login anda
+apps/frappe/frappe/templates/emails/new_user.html +4,Your login id is,Id login anda adalag
 DocType: Dropbox Backup,Send Notifications To,Kirim Pemberitahuan Untuk
 DocType: Translation,"If your data is in HTML, please copy paste the exact HTML code with the tags.","Jika data Anda di HTML, silahkan copy paste kode HTML yang tepat dengan tag."
 DocType: DocField,Ignore User Permissions,Abaikan Izin Pengguna
